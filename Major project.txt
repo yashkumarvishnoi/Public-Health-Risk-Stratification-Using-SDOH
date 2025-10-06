@@ -1,0 +1,15 @@
+
+Current Progress:- 
+1. Initial Synthetic Dataset Created, considering few necessary clinical dataset attributes for individuals and following that same with SDOH dataset created with general disease keeping in mind.
+2. Worked with lightbgm model with balancing the weights due to imbalance dataset being created.
+3. Managed to join the datasets with dtcode11 col and added the feature of District names as well in SDOH dataset.
+4. Successfully donloaded and am using a geojson file for the districts of Uttarakhand as the core to visualize the prediction of diseases spred district wise.
+5. Initial model training and test have provided decent evaluation score following with intial visualization of the district disease risk map being generated.
+
+
+Tasks to Perfom:
+1. Add feature of seasonality for specific based diseas like malaria and dengue.
+2. Adding specific disease for each prediction providing base to tackle all disease outbreak in State.
+3. Improve the model accuracy and work on it to deliver better results.
+4. Search for a better real dataset with the necessary attributes to deliver the results in real life.
+5. Achieve the core visualization and pointing of factors to ech of disease for cause and prevention.
